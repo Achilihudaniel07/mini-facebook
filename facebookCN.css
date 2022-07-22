@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(197, 197, 251);
+}
+
+.createnewpage{
+    font-size: 2rem;
+    font-weight: bolder;
+    
+}
+
+input{
+    width: 28%;
+    height: 5vh;
+    font-size: large;
+    margin-bottom: -3rem;
+}
+
+.row{
+    padding-bottom: 3rem;
+    width: 100%;
+
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border: 2px solid blue;
+    color: blue;
+    margin-top: 2rem;
+    border-radius: 8px;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 1.2vw;
+    }
+
+button:hover{
+    cursor: pointer;
+    border: 2px solid blue;
+    background-color: black;
+    color: white;
+    }

@@ -1,0 +1,138 @@
+body{
+    font-family: 'Courier New', Courier, monospace; 
+    background: linear-gradient(to right, rgb(246, 249, 250),
+    blue);
+}
+
+.fpage{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6rem;
+}
+
+.about{
+    display: block;
+    width: 50%;
+}
+
+h1{
+    color: blue;
+    font-size:5vw; 
+    margin-top:5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick, 
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -10px -20px 30px firebrick;
+}
+
+.about p{
+    margin-top:-1.7rem; 
+    font-weight: bold; 
+    font-size: 1.7vw; 
+    font-style: italic;
+}
+
+.showp{
+    display: flex;
+}
+
+.showpass, #showpassw{
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.signin{
+    background-color:rgba(255, 254, 254, 0.743);
+    width: 30vw;
+    height:55vh;
+    color: whitesmoke;
+    padding: 3.7rem;
+    text-align: center;
+    font-size: 2.1rem;
+    border-radius: 3%;
+    box-shadow: 3px 7px 3px 4px;
+}
+
+.input1{
+    font-size: 50%;
+    width: 100%;
+    height: 7vh;
+    border-radius: 8px;
+}
+
+.signin input:hover{
+    background-color: rgb(16, 16, 17);
+    color: white;
+}
+
+.login button{
+    width: 100%;
+    background-color: blue;
+    border: 2px solid blue;
+    color: white;
+    margin-top: 2rem;
+    border-radius: 8px;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 1.2vw;
+}
+.login button:hover{
+    cursor: pointer;
+    border: 2px solid blue;
+    background-color: white;
+    color: blue;
+}
+
+#forgtpass{
+    color:goldenrod;
+    font-size: 70%;
+    font-weight: bolder;
+}
+
+.createnew p{
+    background-color: rgb(55, 137, 55);
+    width: 60%;
+    margin-left:auto;
+    margin-right: auto;
+    color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 1.2vw;
+    display: flex;
+    justify-content: center;
+}
+
+a{
+      text-decoration: none;
+      color: aliceblue;
+}
+
+.createnew p:hover{
+    background-color: rgb(49, 207, 212);
+}
+
+.createnew p:hover{
+    cursor: pointer;
+    border: 2px solid rgb(49, 207, 212);
+    background-color: white;
+    color: rgb(10, 10, 10);
+}
+
+.createpage{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5vw;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
